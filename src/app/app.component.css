@@ -1,6 +1,17 @@
 header{
   border: solid rgba(65, 15, 15, 0.678) 1PX;
   text-align: center;
-  border-width: 1cm;
+  border-width: 0.6cm;
+
   color: rgb(94, 10, 10);
+}
+button {
+
+  text-align: center;
+  border: solid rgba(65, 15, 15, 0.678) 1PX;
+  padding: 25pX;
+  border-width: 0.2cm;
+  color: rgb(94, 10, 10);
+  width: 100%;
+
 }

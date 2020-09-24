@@ -1,3 +1,21 @@
 
 
 <hEader>{{title}}</hEader>
+<hr>
+<button (click) = "onClikeContact()">show your contact </button>
+
+
+<div *ngIf= "showContact === false ">
+  <newcontact name = 'Alex' ></newcontact>
+  <newcontact name = "Johe"></newcontact>
+
+</div>
+<diV>
+    <ul>
+        <li *ngFor= "let contact of  alltheContact">
+          <newcontact name = "{{contact}}"></newcontact>
+
+        </li>
+    </ul>
+
+</diV>

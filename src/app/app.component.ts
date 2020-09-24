@@ -6,6 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SimpleContact';
+  title = 'SimplContat';
+  alltheContact: string[] = ["what", "The ", "Fuck"]
+
+
+  showContact: boolean  = false;
+
+onClikeContact(){
+
+  this.showContact = !this.showContact;
+
+}
 }
 
