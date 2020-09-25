@@ -5,17 +5,12 @@
 <button (click) = "onClikeContact()">show your contact </button>
 
 
-<div *ngIf= "showContact === false ">
+<!-- <div *ngIf= "showContact === true "></div>
   <newcontact name = 'Alex' ></newcontact>
   <newcontact name = "Johe"></newcontact>
 
+</div> -->
+<div *ngIf= "showContact === true ">
+
+  <newcontact [newcontact] = "newcontact" *ngFor=" let newcontact of  newcontact"></newcontact>
 </div>
-<diV>
-    <ul>
-        <li *ngFor= "let contact of  alltheContact">
-          <newcontact name = "{{contact}}"></newcontact>
-
-        </li>
-    </ul>
-
-</diV>

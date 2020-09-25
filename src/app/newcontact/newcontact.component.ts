@@ -1,5 +1,5 @@
 import { Component, OnInit, Input} from '@angular/core';
-
+import { Newcontact } from "./Newcontact";
 @Component({
   selector: 'newcontact',
   templateUrl: './newcontact.component.html',
@@ -7,7 +7,9 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class NewcontactComponent implements OnInit {
 
-  @Input() name: string
+  @Input() newcontact: Newcontact;
+  // newcontact: Newcontact;
+
   constructor() { }
 
   ngOnInit(): void {

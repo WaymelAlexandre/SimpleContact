@@ -2,8 +2,15 @@
 {
 
   display: block;
+
   border: 1px red solid;
   background-color: mistyrose;
+  width: 40%;
   padding: 1cm;
-  margin: 10px;
+
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+
   }
